@@ -12,7 +12,11 @@ const userSchema = new mongoose.Schema({
     },    password:{
         type: String,
         required: true,
-    }
+    },
+    avatar:{
+        type: String,
+        default: "https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg"
+    },
 }, {timestamps: true});
 
 const User = mongoose.model('User', userSchema);
