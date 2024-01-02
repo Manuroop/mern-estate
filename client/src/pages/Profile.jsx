@@ -92,7 +92,7 @@ export default function Profile() {
           className="border p-3 rounded-lg "
           id="password"
         />
-        <button className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opcity-80"></button>
+        <button className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opcity-80">Update</button>
       </form>
       <div className="flex justify-between mt-5">
         <span className="text-red-700 cursor-pointer">Delete account</span>
